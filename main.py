@@ -1,3 +1,9 @@
+import sqlite3
+
+
+db = sqlite3.connect("data.db")
+c = db.cursor()
+
 # Welcome Message
 print("************************************************************")
 print("================== BANK MANAGEMENT SYSTEM ==================")
